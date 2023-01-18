@@ -1,0 +1,23 @@
+@font-face{font-family:Exo2\.0;src:url(51c257bfa8ec3e0cfb4b.otf)}
+.card{background-color:var(--white-color);background:url(3cc676cda5201fce836c.png) no-repeat 0 100%,linear-gradient(135deg,transparent 28px,var(--white-color) 28px);border-radius:11px;cursor:pointer;min-height:472px;position:relative;-moz-user-select:none;-webkit-user-select:none;user-select:none}.card:before{background-color:var(--blue-color);background:linear-gradient(135deg,transparent 29px,var(--blue-color) 29px);border-radius:12px;bottom:-4px;content:"";left:-4px;position:absolute;right:-4px;top:-4px;z-index:-1}
+
+.grid-cards{display:grid;gap:88px;grid-template-columns:repeat(3,312px);margin:0;padding:0}@media screen and (max-width:1160px){.grid-cards{gap:30px}}@media screen and (max-width:1020px){.grid-cards{grid-template-columns:repeat(2,312px)}}@media screen and (max-width:680px){.grid-cards{grid-template-columns:312px}}
+:root{--white-color:#fff;--blue-color:#1698d9;--black-color:#000;--grey-color:#666;--light-grey-color:#f2f2f2;--medium-grey-color:#b3b3b3;--red-color:#d91667;--yellow-color:#ff6}.page{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;align-items:center;background-attachment:fixed;background-image:url(5658eae679f74a1ba743.png);background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;flex-direction:column;font-family:Trebuchet MS,sans-serif;gap:25px;justify-content:center;margin:0;min-height:100vh;padding:0;text-rendering:optimizeLegibility}
+.header{margin:0;padding:0}
+.grid-cards__item{box-sizing:border-box;margin:0;padding:0}
+.card__description{color:var(--white-color);font-size:13px;font-weight:400;letter-spacing:0;line-height:15px;margin:18px 0 0;max-width:100%;padding:0;text-align:center}.card__description label{color:var(--blue-color)}
+.card__gift{color:var(--grey-color);font-size:14px;font-weight:400;letter-spacing:0;line-height:16px;margin:0;max-width:127px;padding:0;text-align:left}.card__gift span{font-weight:700}
+.card__info{margin:0 0 0 43px;padding:18px 0 0}
+.card__label{align-items:center;background-color:var(--blue-color);border-radius:50%;bottom:13px;display:flex;flex-direction:column;gap:8px;height:80px;justify-content:center;margin:0;padding:0;position:absolute;right:13px;width:80px}
+.card__label-unit{color:var(--white-color);font-size:21px;font-weight:400;letter-spacing:0;line-height:22px;margin:0;padding:0;text-align:center}
+.card__label-weight{color:var(--white-color);font-size:42px;font-weight:400;letter-spacing:0;line-height:22px;margin:10px 0 0;padding:0;text-align:center}
+.card__portion{color:var(--grey-color);font-size:14px;font-weight:400;letter-spacing:0;line-height:16px;margin:15px 0 0;padding:0;text-align:left}.card__portion span{font-weight:700}
+.card__pre-title{color:var(--grey-color);font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left}
+.card__title{font-size:48px;font-weight:700;letter-spacing:0;line-height:56px;margin:5px 0 0;padding:0;text-align:left}
+.card__subtitle{font-size:24px;font-weight:700;letter-spacing:0;line-height:28px;margin:0;padding:0;text-align:left}
+.header__title{color:var(--white-color);font-family:Exo2\.0;font-size:36px;line-height:44px;margin:0;padding:0;text-align:center}
+.card__description-buy{cursor:pointer;-webkit-text-decoration:underline dashed;text-decoration:underline dashed}
+.card_selected:before{background-color:var(--red-color);background:linear-gradient(135deg,transparent 29px,var(--red-color) 29px)}
+.card__label_selected{background-color:var(--red-color)}
+.grid-cards__item_disabled{pointer-events:none}.grid-cards__item_disabled .card__description{color:var(--yellow-color)}.grid-cards__item_disabled .card:before{background-color:var(--medium-grey-color);background:linear-gradient(135deg,transparent 29px,var(--medium-grey-color) 29px)}.grid-cards__item_disabled .card:after{background:linear-gradient(135deg,transparent 28px,hsla(0,0%,100%,.5) 0);border-radius:11px;content:"";height:100%;left:0;position:absolute;top:0;width:100%;z-index:2}.grid-cards__item_disabled .card__label{background-color:var(--grey-color)}
+
